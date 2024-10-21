@@ -1,7 +1,11 @@
 # self_adaptive_article_2024_ufjf
 
-This is a notebook based on Google Colaboratory. It contains Python programming codes for data processing and model training in AutoML.
+This repository contains programming codes relating to two case studies used as case study scenarios: a textile industry and its fabric production (Case Study 1) and a metallurgical industry with heat treatment processes (Case Study 2).
 
-For this study, the metallurgical industry provided data on the order of 1,000,000 records from three different machines containing information from seven sensors, which indicate specific failure modes, installed in heat treatment furnaces for metal parts, namely: global vibration, collision, imbalance, network, bearing 1, bearing 2, bearing 3. 
+In Case Study 1 (CS1), historical data on machine failures in the textile industry were used, such as type of failure, time of the failure event, repair time, cost, criticality of the failure, temperature and humidity of the environment at the time of failure event
 
-The dataset represents an operational interval of 8 days. The set of sensors is used to monitor the vibration of the equipment during its use. For each sensor, the company establishes, based on the knowledge of its experts, value ranges, which represent intervals considered acceptable or normal.
+In Case Study 2 (CS2) using machine status data collected from heat treatment furnaces in a large industry.
+
+The machines have sensors that collect information about general machine vibration, collision, imbalance, electrical network and bearings 1, 2 and 3.
+
+During the study, we had direct contact with experts from the metalworking industry. Technical interviews were carried out, considering that the focus was to understand how data could support decision making and which critical operational scenarios needed to be mapped. The data collected was not made available for confidentiality reasons.
